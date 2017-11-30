@@ -9,8 +9,7 @@ module JukeBotService
 
     attr_reader :current_room
 
-    def initialize(sonos_room: 'Bedroom')
-      @current_room = sonos_room
+    def initialize()
       @api = create_api_call
     end
 
